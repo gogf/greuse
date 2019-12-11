@@ -5,7 +5,7 @@ package greuse_test
 import (
 	"fmt"
 	"github.com/gogf/greuse"
-    "html"
+	"html"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

@@ -24,7 +24,7 @@ import (
 
 var (
 	Enabled      = false
-	listenConfig = net.ListenConfig {
+	listenConfig = net.ListenConfig{
 		Control: Control,
 	}
 )
@@ -51,7 +51,7 @@ func Dial(network, laddr, raddr string) (net.Conn, error) {
 	if err != nil {
 		return nil, err
 	}
-	d := net.Dialer {
+	d := net.Dialer{
 		Control:   Control,
 		LocalAddr: nla,
 	}

@@ -3,7 +3,7 @@
 package greuse
 
 import (
-    "syscall"
+	"syscall"
 )
 
 // See net.RawConn.Control
