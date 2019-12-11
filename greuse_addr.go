@@ -1,9 +1,10 @@
-package greuseport
+package greuse
 
 import (
 	"net"
 )
 
+// ResolveAddr parses given parameters to net.Addr.
 func ResolveAddr(network, address string) (net.Addr, error) {
 	switch network {
 		case "ip", "ip4", "ip6":

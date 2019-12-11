@@ -2,15 +2,15 @@ package main
 
 import (
     "fmt"
-    "github.com/gogf/greuseport"
+    "github.com/gogf/greuse"
     "net/http"
     "os"
 )
 
 // We can create two processes with this code.
-// Do some requests, then watch the output of the console.
+// Do some requests, then see the response from the server.
 func main() {
-    listener, err := greuseport.Listen("tcp", ":8881")
+    listener, err := greuse.Listen("tcp", ":8881")
     if err != nil {
         panic(err)
     }
