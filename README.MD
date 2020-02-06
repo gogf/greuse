@@ -1,4 +1,4 @@
-# greuse [![Go Doc](https://godoc.org/github.com/gogf/greuse?status.svg)](https://godoc.org/github.com/gogf/greuse) [![Release](https://img.shields.io/github/release/gogf/greuse.svg?style=flat)](https://github.com/gogf/greuse/releases) [![License](https://img.shields.io/github/license/gogf/greuse.svg?style=flat)](https://github.com/gogf/greuse)
+# greuse
 
 Package greuse provides Listen and Dial functions that set socket options in order to be able to reuse ports. 
 You should only use this package if you know what SO_REUSEADDR and SO_REUSEPORT are.
